@@ -1,0 +1,16 @@
+$tablaRyM:(
+    alto: $alto*3,
+    colorletra: rgb(241, 250, 250),
+    backcol: rgba(0, 0, 0, 0.511),
+    fonts: $fontsi*5,
+    fontf: 'Montserrat', sans-serif
+    pdd: $fontsi*3,
+    br: groove $fontsi*2 rgba(240, 231, 231, 0.334),
+
+);
+
+$navyfooter:(
+    backcol: rgba(0, 0, 0, 0.766),
+    color: $color,
+    fonts: $fontsi*5,
+)

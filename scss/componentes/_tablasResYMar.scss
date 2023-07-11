@@ -1,0 +1,17 @@
+.tablamaridaje{
+    background-color: map-get($tablaRyM, backcol );
+    font-size: map-get($tablaRyM , fonts );
+    font-family: map-get($tablaRyM, fontf );
+    text-align: center;
+    color: map-get($tablaRyM, colorletra);
+    padding: map-get($tablaRyM, pdd );
+    height: map-get($tablaRyM, alto );
+    border: map-get($tablaRyM, br );
+    border-collapse: collapse;
+}
+.maridaje{
+width: 1200px;
+}
+.rese{
+    height: 500px;
+}

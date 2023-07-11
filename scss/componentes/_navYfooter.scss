@@ -1,0 +1,29 @@
+.barranav{
+    font-size: map-get($navyfooter ,fonts);
+    font-family: map-get($tablaRyM, fontf);
+    background-color: map-get($navyfooter , backcol);
+    text-decoration: none;
+    color: $color;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 45px;
+    width: 100vw;
+    height: 80px;
+    background-color: map-get($navyfooter , backcol );
+    img{
+        width: 60px;
+        height: 50px;
+        opacity: 0.3;
+    }
+}
+.prefooter{
+    position: relative;
+    top: 100px;
+    margin-bottom: $fontsi;
+    height: $alto*15;
+}

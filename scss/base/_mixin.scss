@@ -1,0 +1,6 @@
+@mixin Titulos($fs, $cl, $ff, $pd){
+    font-size: $fs;
+    color: $cl;
+    font-family: $ff;
+    padding: $pd;
+}

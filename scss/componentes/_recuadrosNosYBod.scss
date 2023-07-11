@@ -1,0 +1,23 @@
+.nosotros{
+    @extend %recuadros;
+    overflow: scroll;
+    height: 550px;
+}
+.bodegas{
+    @extend %recuadros;
+}
+.bod{
+    width: 75%;
+}
+.imagenesnosotros, iframe{
+    height: 550px;
+    border-radius: 5%;
+    opacity: 0.9;
+}
+iframe{
+    margin-bottom: 25px;
+    height: 310px;
+}
+.rese{
+    height: auto;
+}
