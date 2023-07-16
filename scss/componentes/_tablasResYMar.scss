@@ -13,5 +13,16 @@
 width: 1200px;
 }
 .rese{
-    height: 500px;
+    background-color: map-get($tablaRyM, backcol );
+    color: map-get($tablaRyM, colorletra);
+    font-family: map-get($tablaRyM, fontf );
+    height: 600px;
+    overflow: scroll;
+    padding: 15px;
+    margin-bottom: 10px;
+    img{
+        height: 375px;
+        width: auto;
+        margin-top: 5px;
+    }
 }

@@ -4,7 +4,17 @@
     background-color: map-get($navyfooter , backcol);
     text-decoration: none;
     color: $color;
+    box-shadow: 1px 1px 15px 0px rgba(112, 111, 111, 0.622);
+    img{
+        height: 150px;
+        width: 150px;
+        border-radius: 5px;
+    }
 }
+.barranav:hover{
+    box-shadow: 0 8px 16px 0 rgba(61, 61, 61, 0.24);
+    border-radius: 2px;
+  }
 
 .footer{
     display: flex;
@@ -14,6 +24,7 @@
     top: 45px;
     width: 100vw;
     height: 80px;
+    box-shadow: 1px 1px 10px 1px rgba(112, 111, 111, 0.827);
     background-color: map-get($navyfooter , backcol );
     img{
         width: 60px;

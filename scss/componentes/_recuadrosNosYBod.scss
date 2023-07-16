@@ -1,16 +1,23 @@
 .nosotros{
     @extend %recuadros;
     overflow: scroll;
-    height: 550px;
+    height: 500px;
+    padding: 15px 15px;
 }
 .bodegas{
     @extend %recuadros;
 }
 .bod{
-    width: 75%;
-}
-.imagenesnosotros, iframe{
+    width: 90%;
     height: 550px;
+}
+.listabodegas{
+    border-radius: 5px;
+    overflow: scroll;
+    height: 500px;
+}
+.imagenesnosotros, .iframe{
+    height: 500px;
     border-radius: 5%;
     opacity: 0.9;
 }
