@@ -58,7 +58,6 @@
 
 .bod {
   width: 90%;
-  height: 550px;
 }
 
 .listabodegas {
@@ -71,6 +70,7 @@
   height: 500px;
   border-radius: 5%;
   opacity: 0.9;
+  overflow: hidden;
 }
 
 iframe {
@@ -115,7 +115,8 @@ iframe {
 body {
   background-image: url(../imagenes/viñedo\ 2.jpg);
   background-attachment: fixed;
-  height: 100%;
+  border: 5px solid red;
+  overflow: auto;
 }
 body header div div a img {
   height: 130px;
@@ -146,11 +147,11 @@ body main h1:hover {
   align-items: center;
   height: 200px;
   width: 100%;
-  text-shadow: 5px 5px 10px rgba(61, 61, 61, 0.685);
+  text-shadow: 5px 5px 10px rgba(61, 60, 60, 0.819);
 }
 .index h2 {
   font-size: 50px;
-  color: rgba(0, 0, 0, 0.847);
+  color: rgba(0, 0, 0, 0.702);
   font-family: "Satisfy";
   padding: 10px;
 }
@@ -164,7 +165,7 @@ section div {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-shadow: 5px 5px 5px rgba(16, 16, 16, 0.967);
+  text-shadow: 1px 1px 5px rgba(16, 16, 16, 0.967), 1px 1px 5px rgba(16, 16, 16, 0.967);
 }
 
 .copa {
@@ -174,7 +175,6 @@ section div {
   top: 180px;
   right: 4px;
   rotate: -10deg;
-  animation-name: example;
   animation-duration: 2s;
 }
 .copa:hover {
